@@ -1,9 +1,0 @@
-<div class="theme button active" theme="serika_dark" style="background: #323437; color: #e2b714;outline: 0 solid #e2b714;">
-        <div class="favButton"><i class="far fa-star"></i></div>
-        <div class="text">serika dark</div>
-        <div class="themeBubbles" style="background: #323437;outline: 0.25rem solid #323437;">
-          <div class="themeBubble" style="background: #e2b714"></div>
-          <div class="themeBubble" style="background: #646669"></div>
-          <div class="themeBubble" style="background: #d1d0c5"></div>
-        </div>
-        </div>
