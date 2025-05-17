@@ -64,7 +64,7 @@ button.botoncabecera:hover span:after {
     opacity: 1;
     right: 0;
 }
-div.contenedorintro {
+div.contenedornormal {
     width: 100%;
     float: left;
 }
@@ -98,5 +98,4 @@ footer {
 }
 table.unico {
     width: 100%;
-    
 }
