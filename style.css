@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'comic-sans';
+    src: url('comicfont.ttf') format('truetype');
+}
+button {
+    font-family: 'comic-sans', sans-serif;
+}
+h1 {
+    font-size: 70px;
+}
+p {
+    font-size: larger;
+}
+body {
+    font-family: 'comic-sans';
+    margin: 0;
+    padding: 0;
+    background-color: #0D1117;
+    color: #C9D1D9;
+    width: 100%;
+}
+.contenido {
+    padding: 20px;
+}
+div.headerbotones {
+    background-color:#161B22;
+    float: left;
+    width: 100%;
+}
+div.botoncabeceradiv {
+    float: left;
+    width: 25%
+}
+button.botoncabecera {
+    border-radius: 8px;
+    border: 10px;
+    color: #D4AF37;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #303843;
+    transition: all 0.5s;
+}
+button.botoncabecera span{
+    cursor: pointer;
+    display: inline-block;
+    position:relative;
+    transition: 0.5s;
+}
+button.botoncabecera span::after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+button.botoncabecera:hover span {
+    padding-right: 25px;
+}
+button.botoncabecera:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+div.contenedorintro {
+    width: 100%;
+    float: left;
+}
+div.fotointro {
+    float: left;
+    width: 50%;
+    padding-left: 50px;
+}
+div.divfooter {
+    width: 100%;
+}
+div.espacioblanco {
+    width: 100%;
+    clear: both;
+    height: 40px;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+table.unico {
+    width: 100%;
+    
+}
