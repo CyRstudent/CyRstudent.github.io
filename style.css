@@ -3,7 +3,7 @@
 }
 @font-face {
     font-family: 'comic-sans';
-    src: url('comicfont.ttf') format('truetype');
+    src: url('./fuentes/ComicNeue-Regular.ttf') format('truetype');
 }
 button {
     font-family: 'comic-sans', sans-serif;
