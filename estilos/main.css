@@ -3,7 +3,7 @@
 }
 @font-face {
     font-family: 'comic-sans';
-    src: url('./fuentes/ComicNeue-Regular.ttf') format('truetype');
+    src: url('../fuentes/ComicNeue-Regular.ttf') format('truetype');
 }
 button {
     font-family: 'comic-sans', sans-serif;
@@ -98,4 +98,10 @@ footer {
 }
 table.unico {
     width: 100%;
+}
+a:link {
+    color: lightskyblue;
+}
+a:visited {
+    color:lightsalmon;
 }
