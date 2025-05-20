@@ -3,4 +3,9 @@ div.educontainer {
     background-color: #303843;
     border-radius: 8px;
     padding: 10px;
+    padding-left: 30px;
+    margin: auto;
+}
+div.bodycontainer {
+    padding: 10px 50px;
 }
