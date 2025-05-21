@@ -1,12 +1,40 @@
 div.formulario {
-    width: 50%;
-    margin: auto;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    padding: 2rem;
+    border-radius: 10px;
 }
-div.nombreapellidos {
-    width: 20%;
-    border: 2px solid #D4AF37;
+div.campo {
+    margin-bottom: 1.5rem;
 }
-.formulario .text::placeholder {
-    font-size: 1.5em;
+div.campo label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #2fbea6;
+    text-align: center;
+}
+div.campo input, textarea {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #444;
+    border-radius: 6px;
+    transition: border-color 0.3s;
+}
+div.campo input::placeholder, textarea:focus{
+    border-color: #007dd7;
+    outline: none;
+}
+button.botonenviar {
+    background-color: #D4AF37;
+    border: none;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    opacity: 0.7;
+}
+button.botonenviar:hover {
     opacity: 1;
 }

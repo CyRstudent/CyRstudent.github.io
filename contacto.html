@@ -43,21 +43,25 @@
             <h1 align="center">Alcancemos lo imposible juntos — Contacta conmigo</h1>
             <div class="formulario">
                 <form action="control_form.php" method="get">
-                    <table>
-                        <tr>
-                            <td>
-                                <h2>Nombre:</h2><input type="text" name="nombre">
-                            </td>
-                            <td>
-                                <h2>Apellidos:</h2>
-                                <input type="text" name="apellidos">
-                            </td>
-                        </tr>
-                        <tr><td>
-                            <h2>Correo electrónico:</h2>
-                            <input type="email" name="correo" value="@">
-                        </td></tr>
-                    </table>
+                    <div class="campo">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" placeholder="Tu nombre">
+                    </div>
+                    <div class="campo">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" placeholder="ejemplo@tu-dominio.com">
+                    </div>
+                    <div class="campo">
+                        <label for="asunto">Asunto</label>
+                        <input type="text" id="asunto" placeholder="Asunto...">
+                    </div>
+                    <div class="campo">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..."></textarea>
+                    </div>
+                    <div class="campo">
+                        <button type="button" class="botonenviar">Enviar</button>
+                    </div>
                 </form>
             </div>
         </div>
