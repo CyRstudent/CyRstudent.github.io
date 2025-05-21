@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Mi proyecto</title>
         <link rel="stylesheet" href="./estilos/main.css">
+        <link rel="stylesheet" href="./estilos/formulario.css">
         <link rel="icon" href="./favicon.ico">
     </head>
     <body>
@@ -40,12 +41,25 @@
         </div>
         <div class="contenedornormal">
             <h1 align="center">Alcancemos lo imposible juntos — Contacta conmigo</h1>
-            <p align="center">Formulario en construcción</p>
-<!--             <form method="GET">
-                <table>
-                    <tr></tr>
-                </table>
-            </form> -->
+            <div class="formulario">
+                <form action="control_form.php" method="get">
+                    <table>
+                        <tr>
+                            <td>
+                                <h2>Nombre:</h2><input type="text" name="nombre">
+                            </td>
+                            <td>
+                                <h2>Apellidos:</h2>
+                                <input type="text" name="apellidos">
+                            </td>
+                        </tr>
+                        <tr><td>
+                            <h2>Correo electrónico:</h2>
+                            <input type="email" name="correo" value="@">
+                        </td></tr>
+                    </table>
+                </form>
+            </div>
         </div>
         <footer>
             <a href="https://cyrstudent.github.io/">Mi proyecto</a> © 2025 por <a href="https://github.com/CyRstudent" target="_blank">Hugo Sáez Madrid</a> está licenciado bajo <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" style="max-width: 1em;max-height:1em;margin-left: .2em;">

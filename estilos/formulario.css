@@ -1,0 +1,12 @@
+div.formulario {
+    width: 50%;
+    margin: auto;
+}
+div.nombreapellidos {
+    width: 20%;
+    border: 2px solid #D4AF37;
+}
+.formulario .text::placeholder {
+    font-size: 1.5em;
+    opacity: 1;
+}
